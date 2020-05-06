@@ -1,0 +1,28 @@
+import turtle
+def rectangle(color):
+    t.begin_fill()
+    t.fillcolor(color)
+    for i in range(1):
+        t.forward(50)
+        t.right(90)
+        t.forward(25)
+        t.right(90)
+        t.forward(50)
+        t.left(180)
+        t.end_fill()
+t = turtle
+t.up()
+t.goto(0,-100)
+t.down()
+t.goto(0,200)
+rectangle("Orange")
+t.goto(0,175)
+rectangle("white")
+t.goto(0,150)
+rectangle("green")
+t.goto(0,175)
+t.begin_fill()
+t.fillcolor ("blue")
+t.forward(25)
+t.circle(-13)
+t.end_fill()
